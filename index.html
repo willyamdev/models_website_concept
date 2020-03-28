@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/sitecss.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="css/bootstrap-4.3.1/css/bootstrap.min.css"> -->
+        <title>Models</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <i class="material-icons" id="menuButton">
+                    menu
+                </i>
+            </nav>
+        </header>
+
+        <div class="menuContainer"></div>
+        <div class="menuShadowContainer d-none"></div>
+
+        <div class="container mt-4 mb-5">
+            <div class="row">
+                <div class="col-md-4 p-0 order-2 order-md-1"
+                    id="container-model-infos">
+                    <h1 class="text-center text-md-left mt-4 mt-md-0" id="modelName">Erika
+                        Mateo</h1>
+                    <div class="model-infos-container">
+                        <div class="container-info">
+                            <h6>HEIGHT</h6>
+                            <h5 id="height">185</h5>
+                        </div>
+                        <div class="container-info">
+                            <h6>WEIGHT</h6>
+                            <h5 id="weight">57</h5>
+                        </div>
+                        <div class="container-info">
+                            <h6>EYE COLOR</h6>
+                            <h5 id="eyeColor">Green</h5>
+                        </div>
+                        <div class="container-info">
+                            <h6>HAIR COLOR</h6>
+                            <h5 id="hairColor">Blonde</h5>
+                        </div>
+                    </div>
+
+                    <div class="model-description">
+                        <p id="description">
+                            Erika Mateo, Swendish model, working in the fashion
+                            capitals for 6 years,
+                            founder of ModelMe, a blog into sustainable
+                            lifestyle.
+                        </p>
+                    </div>
+
+                    <div class="portfolioButton">
+                        <button>PORTFOLIO</button>
+                    </div>
+
+                    <h5 class="mt-5 text-md-left text-center">Models</h5>
+                    <div class="models-photos">
+                        <img src="images/model_1.jpg" class="models-image-selected" id="erika">
+                        <img src="images/model_2.jpg" id="stefan">
+                        <img src="images/model_3.jpg" id="arthur">
+                    </div>
+                </div>
+
+                <div class="col-md-8 p-0 order-1 order-md-2">
+                    <img src="images/model_1.jpg" class="model-image" id="modelPhoto">
+                </div>
+            </div>
+        </div>
+
+        <script src="js/models.js"></script>
+        <script src="js/menu.js"></script>
+    </body>
+</html>
